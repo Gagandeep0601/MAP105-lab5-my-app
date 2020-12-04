@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  email: string = "";
+  password: string = "";
+
   constructor() {}
+
+  signIn() {
+    alert("You entered the email: " + this.email + ", and the password: " + this.password);
+    }
+   
 
 }
